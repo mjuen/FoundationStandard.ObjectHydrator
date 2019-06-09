@@ -67,9 +67,6 @@ Version 0.7.0
 
 * Added new generators: UnitedKingdomCityGenerator, UnitedKingdomCountyGenerator, UnitedKingdomPostcodeGenerator, AlphaNumericGenerator.
 
-## Nuget
-Install-Package FoundationStandard.ObjectHydrator
-
 ## Summary
 
 So basically, you create a class and invoke the Hydrator object with that class type. Then call the `GetSingle` or `GetList` functions and you are returned an instance of the object populated with realistic data. The idea behind it is to use it to replace a database call to use in your UI. 
